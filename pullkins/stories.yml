@@ -1,0 +1,10 @@
+git_hard:
+  commands:
+  - git fetch $1 $2
+  - git stash
+  - git checkout $2
+  - git reset --hard $1/$2
+npm:
+  commands:
+  - npm -v
+  - npm i

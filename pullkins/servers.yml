@@ -1,0 +1,80 @@
+60:
+  user: root
+  ip: 62.109.14.60
+  port: 22
+47:
+  user: root
+  ip: 188.93.211.47
+  port: 22
+local:
+  user: root
+  ip: 127.0.0.1
+  port: 22
+sek:
+  user: root
+  ip: 185.93.111.244
+  port: 22
+gkers:
+  user: u22884
+  ip: u22884.netangels.ru
+  port: 22
+gagarin:
+  user: u0354974
+  ip: 31.31.196.163
+  port: 22
+cin:
+  user: artinstall
+  ip: 92.53.96.105
+  port: 22
+bergauf:
+  user: u19653
+  ip: u19653.netangels.ru
+  port: 22
+35:
+  user: root
+  ip: 95.216.170.35
+  port: 22
+pw:
+  user: u0507965
+  ip: server150.hosting.reg.ru
+  port: 22
+iq:
+  user: root
+  ip: 95.216.188.245
+  port: 22
+elpas:
+  user: root
+  ip: 94.154.13.199
+  port: 22
+uns:
+  user: root
+  ip: 91.226.83.130
+  port: 22
+riv:
+  user: u15498
+  ip: u15498.netangels.ru
+  port: 22
+dm:
+  user: root
+  ip: 159.69.37.50
+  port: 22
+artvds:
+  user: root
+  ip: 5.23.52.229
+  port: 22
+fto:
+  user: root
+  ip: 62.109.18.1
+  port: 22
+ruriv:
+  user: root
+  ip: 94.154.11.91
+  port: 22
+au:
+  user: root
+  ip: 94.154.11.143
+  port: 22
+gg_prod:
+  user: root
+  ip: 95.216.166.63
+  port: 22

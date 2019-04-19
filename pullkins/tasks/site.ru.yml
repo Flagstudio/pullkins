@@ -1,0 +1,25 @@
+- repo: flag_studio/repo_name
+  branch: develop
+  domain: site.ru
+  server: 'server_name'
+  path: /path/to/repo/on/server
+  commands:
+    - 'php artisan down'
+
+    - 'git fetch origin ${branch}'
+    - 'git stash'
+    - 'git checkout ${branch}'
+    - 'get reset --hard origin/${branch}'
+
+    - 'composer install -q'
+    - 'npm run prod'
+    - 'php artisan migrate --force --quiet'
+
+    - 'php artisan view:clear'
+    - 'php artisan config:clear'
+
+    - './vendor/bin/phpunit --testdox'
+
+    - 'php artisan up'
+  stop_on_error: false
+  jira_release: false
