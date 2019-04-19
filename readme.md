@@ -1,6 +1,8 @@
 
 Hi, we are still working on the project's code so I warn you not to use it in production. Any feedback or help is very appreceated!
 
+Quick learning video is on the way!
+
 # Installation
 Clone project to your CI machine.
 ```bash
@@ -10,7 +12,7 @@ cp .env.example .env
 
 - Edit .env to set database, admin panel and Jira (if needed) credentials
 - Create and copy/paster your Slack webhook URLs;
-- Edit Caddyfile_production to set auto-SSL. All you need is to replace "0.0.0.0:80" with your domain like "site.ru"
+- Edit Caddyfile_production to set auto-SSL. All you need is to replace `0.0.0.0:80` with your domain like `site.ru`
 
  Then spin up docker-compose app like this
 ```bash
